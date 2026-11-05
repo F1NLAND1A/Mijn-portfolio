@@ -1,0 +1,71 @@
+style
+    :root {
+    --primary-color: #03ffd9;
+    --secondary-color: #fb03ff;
+    --background-color: #cfffff;
+    }
+
+    .highlight {
+        color: var(--secondary-color);
+    }
+
+    .accent {
+        color: #ffffff;
+    }
+    
+    body{
+        color:white; 
+    }
+
+    header{
+        color: #03ffd9;
+        padding: 20px;
+        
+    }
+
+    main{
+        color:#fb03ff;
+        border: 1 px solid #ccffff;
+        padding: 10px;
+        
+    }
+
+    #over-mij{
+        color: #03ffd9;
+        padding: 10 px;
+        border-bottom: #fb03ff;
+        border: 1px solid var(--secondary-color)
+    }
+
+    footer{
+        color: var(--secondary-color);
+    }
+
+    .projectkaart {
+        color: var(--primary-color);
+        padding: 20px; 
+        border: 1px solid var(--background-color);
+        margin: 20px;
+    }
+
+    * {
+        box-sizing: border-boxx;
+    }
+
+    .projectkaarten {
+        display: flex; 
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    nav {
+        color:#f900fd;
+    }
+
+    @media (max-width: 768px){
+        .projectkaarten{
+            flex-direction: column;
+        }
+        
+    }
